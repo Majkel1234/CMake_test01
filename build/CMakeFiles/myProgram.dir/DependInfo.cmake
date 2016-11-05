@@ -4,14 +4,14 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/home/michal/Pulpit/ppp/main.cpp" "/home/michal/Pulpit/ppp/build/CMakeFiles/myProgram.dir/main.cpp.o"
+  "/home/michal/Pulpit/nowy/CMake_test01/main.cpp" "/home/michal/Pulpit/nowy/CMake_test01/build/CMakeFiles/myProgram.dir/main.cpp.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 
 # Targets to which this target links.
 SET(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/michal/Pulpit/ppp/build/CMakeFiles/isEven.dir/DependInfo.cmake"
-  "/home/michal/Pulpit/ppp/build/CMakeFiles/isHigherThan100.dir/DependInfo.cmake"
+  "/home/michal/Pulpit/nowy/CMake_test01/build/CMakeFiles/isEven.dir/DependInfo.cmake"
+  "/home/michal/Pulpit/nowy/CMake_test01/build/CMakeFiles/isHigherThan100.dir/DependInfo.cmake"
   )
 
 # The include file search paths:

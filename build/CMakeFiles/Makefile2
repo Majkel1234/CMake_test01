@@ -50,10 +50,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/michal/Pulpit/ppp
+CMAKE_SOURCE_DIR = /home/michal/Pulpit/nowy/CMake_test01
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/michal/Pulpit/ppp/build
+CMAKE_BINARY_DIR = /home/michal/Pulpit/nowy/CMake_test01/build
 
 #=============================================================================
 # Target rules for target CMakeFiles/isEven.dir
@@ -62,7 +62,7 @@ CMAKE_BINARY_DIR = /home/michal/Pulpit/ppp/build
 CMakeFiles/isEven.dir/all:
 	$(MAKE) -f CMakeFiles/isEven.dir/build.make CMakeFiles/isEven.dir/depend
 	$(MAKE) -f CMakeFiles/isEven.dir/build.make CMakeFiles/isEven.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/michal/Pulpit/ppp/build/CMakeFiles  1
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/michal/Pulpit/nowy/CMake_test01/build/CMakeFiles  1
 	@echo "Built target isEven"
 .PHONY : CMakeFiles/isEven.dir/all
 
@@ -72,9 +72,9 @@ all: CMakeFiles/isEven.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/isEven.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/michal/Pulpit/ppp/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/michal/Pulpit/nowy/CMake_test01/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/isEven.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/michal/Pulpit/ppp/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/michal/Pulpit/nowy/CMake_test01/build/CMakeFiles 0
 .PHONY : CMakeFiles/isEven.dir/rule
 
 # Convenience name for target.
@@ -97,7 +97,7 @@ clean: CMakeFiles/isEven.dir/clean
 CMakeFiles/isHigherThan100.dir/all:
 	$(MAKE) -f CMakeFiles/isHigherThan100.dir/build.make CMakeFiles/isHigherThan100.dir/depend
 	$(MAKE) -f CMakeFiles/isHigherThan100.dir/build.make CMakeFiles/isHigherThan100.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/michal/Pulpit/ppp/build/CMakeFiles  2
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/michal/Pulpit/nowy/CMake_test01/build/CMakeFiles  2
 	@echo "Built target isHigherThan100"
 .PHONY : CMakeFiles/isHigherThan100.dir/all
 
@@ -107,9 +107,9 @@ all: CMakeFiles/isHigherThan100.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/isHigherThan100.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/michal/Pulpit/ppp/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/michal/Pulpit/nowy/CMake_test01/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/isHigherThan100.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/michal/Pulpit/ppp/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/michal/Pulpit/nowy/CMake_test01/build/CMakeFiles 0
 .PHONY : CMakeFiles/isHigherThan100.dir/rule
 
 # Convenience name for target.
@@ -133,7 +133,7 @@ CMakeFiles/myProgram.dir/all: CMakeFiles/isEven.dir/all
 CMakeFiles/myProgram.dir/all: CMakeFiles/isHigherThan100.dir/all
 	$(MAKE) -f CMakeFiles/myProgram.dir/build.make CMakeFiles/myProgram.dir/depend
 	$(MAKE) -f CMakeFiles/myProgram.dir/build.make CMakeFiles/myProgram.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/michal/Pulpit/ppp/build/CMakeFiles  3
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/michal/Pulpit/nowy/CMake_test01/build/CMakeFiles  3
 	@echo "Built target myProgram"
 .PHONY : CMakeFiles/myProgram.dir/all
 
@@ -143,9 +143,9 @@ all: CMakeFiles/myProgram.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/myProgram.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/michal/Pulpit/ppp/build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/michal/Pulpit/nowy/CMake_test01/build/CMakeFiles 3
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/myProgram.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/michal/Pulpit/ppp/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/michal/Pulpit/nowy/CMake_test01/build/CMakeFiles 0
 .PHONY : CMakeFiles/myProgram.dir/rule
 
 # Convenience name for target.

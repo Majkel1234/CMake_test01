@@ -38,10 +38,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/michal/Pulpit/ppp
+CMAKE_SOURCE_DIR = /home/michal/Pulpit/nowy/CMake_test01
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/michal/Pulpit/ppp/build
+CMAKE_BINARY_DIR = /home/michal/Pulpit/nowy/CMake_test01/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/isHigherThan100.dir/depend.make
@@ -54,17 +54,17 @@ include CMakeFiles/isHigherThan100.dir/flags.make
 
 CMakeFiles/isHigherThan100.dir/isHigherThan100.cpp.o: CMakeFiles/isHigherThan100.dir/flags.make
 CMakeFiles/isHigherThan100.dir/isHigherThan100.cpp.o: ../isHigherThan100.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/michal/Pulpit/ppp/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/michal/Pulpit/nowy/CMake_test01/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/isHigherThan100.dir/isHigherThan100.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/isHigherThan100.dir/isHigherThan100.cpp.o -c /home/michal/Pulpit/ppp/isHigherThan100.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/isHigherThan100.dir/isHigherThan100.cpp.o -c /home/michal/Pulpit/nowy/CMake_test01/isHigherThan100.cpp
 
 CMakeFiles/isHigherThan100.dir/isHigherThan100.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/isHigherThan100.dir/isHigherThan100.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/michal/Pulpit/ppp/isHigherThan100.cpp > CMakeFiles/isHigherThan100.dir/isHigherThan100.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/michal/Pulpit/nowy/CMake_test01/isHigherThan100.cpp > CMakeFiles/isHigherThan100.dir/isHigherThan100.cpp.i
 
 CMakeFiles/isHigherThan100.dir/isHigherThan100.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/isHigherThan100.dir/isHigherThan100.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/michal/Pulpit/ppp/isHigherThan100.cpp -o CMakeFiles/isHigherThan100.dir/isHigherThan100.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/michal/Pulpit/nowy/CMake_test01/isHigherThan100.cpp -o CMakeFiles/isHigherThan100.dir/isHigherThan100.cpp.s
 
 CMakeFiles/isHigherThan100.dir/isHigherThan100.cpp.o.requires:
 .PHONY : CMakeFiles/isHigherThan100.dir/isHigherThan100.cpp.o.requires
@@ -101,6 +101,6 @@ CMakeFiles/isHigherThan100.dir/clean:
 .PHONY : CMakeFiles/isHigherThan100.dir/clean
 
 CMakeFiles/isHigherThan100.dir/depend:
-	cd /home/michal/Pulpit/ppp/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/michal/Pulpit/ppp /home/michal/Pulpit/ppp /home/michal/Pulpit/ppp/build /home/michal/Pulpit/ppp/build /home/michal/Pulpit/ppp/build/CMakeFiles/isHigherThan100.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/michal/Pulpit/nowy/CMake_test01/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/michal/Pulpit/nowy/CMake_test01 /home/michal/Pulpit/nowy/CMake_test01 /home/michal/Pulpit/nowy/CMake_test01/build /home/michal/Pulpit/nowy/CMake_test01/build /home/michal/Pulpit/nowy/CMake_test01/build/CMakeFiles/isHigherThan100.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/isHigherThan100.dir/depend
 

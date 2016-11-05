@@ -38,10 +38,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/michal/Pulpit/ppp
+CMAKE_SOURCE_DIR = /home/michal/Pulpit/nowy/CMake_test01
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/michal/Pulpit/ppp/build
+CMAKE_BINARY_DIR = /home/michal/Pulpit/nowy/CMake_test01/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/myProgram.dir/depend.make
@@ -54,17 +54,17 @@ include CMakeFiles/myProgram.dir/flags.make
 
 CMakeFiles/myProgram.dir/main.cpp.o: CMakeFiles/myProgram.dir/flags.make
 CMakeFiles/myProgram.dir/main.cpp.o: ../main.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/michal/Pulpit/ppp/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/michal/Pulpit/nowy/CMake_test01/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/myProgram.dir/main.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/myProgram.dir/main.cpp.o -c /home/michal/Pulpit/ppp/main.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/myProgram.dir/main.cpp.o -c /home/michal/Pulpit/nowy/CMake_test01/main.cpp
 
 CMakeFiles/myProgram.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/myProgram.dir/main.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/michal/Pulpit/ppp/main.cpp > CMakeFiles/myProgram.dir/main.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/michal/Pulpit/nowy/CMake_test01/main.cpp > CMakeFiles/myProgram.dir/main.cpp.i
 
 CMakeFiles/myProgram.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/myProgram.dir/main.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/michal/Pulpit/ppp/main.cpp -o CMakeFiles/myProgram.dir/main.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/michal/Pulpit/nowy/CMake_test01/main.cpp -o CMakeFiles/myProgram.dir/main.cpp.s
 
 CMakeFiles/myProgram.dir/main.cpp.o.requires:
 .PHONY : CMakeFiles/myProgram.dir/main.cpp.o.requires
@@ -102,6 +102,6 @@ CMakeFiles/myProgram.dir/clean:
 .PHONY : CMakeFiles/myProgram.dir/clean
 
 CMakeFiles/myProgram.dir/depend:
-	cd /home/michal/Pulpit/ppp/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/michal/Pulpit/ppp /home/michal/Pulpit/ppp /home/michal/Pulpit/ppp/build /home/michal/Pulpit/ppp/build /home/michal/Pulpit/ppp/build/CMakeFiles/myProgram.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/michal/Pulpit/nowy/CMake_test01/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/michal/Pulpit/nowy/CMake_test01 /home/michal/Pulpit/nowy/CMake_test01 /home/michal/Pulpit/nowy/CMake_test01/build /home/michal/Pulpit/nowy/CMake_test01/build /home/michal/Pulpit/nowy/CMake_test01/build/CMakeFiles/myProgram.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/myProgram.dir/depend
 

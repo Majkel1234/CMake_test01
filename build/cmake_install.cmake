@@ -1,4 +1,4 @@
-# Install script for directory: /home/michal/Pulpit/ppp
+# Install script for directory: /home/michal/Pulpit/nowy/CMake_test01
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -38,7 +38,7 @@ ELSE(CMAKE_INSTALL_COMPONENT)
   SET(CMAKE_INSTALL_MANIFEST "install_manifest.txt")
 ENDIF(CMAKE_INSTALL_COMPONENT)
 
-FILE(WRITE "/home/michal/Pulpit/ppp/build/${CMAKE_INSTALL_MANIFEST}" "")
+FILE(WRITE "/home/michal/Pulpit/nowy/CMake_test01/build/${CMAKE_INSTALL_MANIFEST}" "")
 FOREACH(file ${CMAKE_INSTALL_MANIFEST_FILES})
-  FILE(APPEND "/home/michal/Pulpit/ppp/build/${CMAKE_INSTALL_MANIFEST}" "${file}\n")
+  FILE(APPEND "/home/michal/Pulpit/nowy/CMake_test01/build/${CMAKE_INSTALL_MANIFEST}" "${file}\n")
 ENDFOREACH(file)

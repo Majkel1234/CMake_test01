@@ -38,10 +38,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/michal/Pulpit/ppp
+CMAKE_SOURCE_DIR = /home/michal/Pulpit/nowy/CMake_test01
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/michal/Pulpit/ppp/build
+CMAKE_BINARY_DIR = /home/michal/Pulpit/nowy/CMake_test01/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/isEven.dir/depend.make
@@ -54,17 +54,17 @@ include CMakeFiles/isEven.dir/flags.make
 
 CMakeFiles/isEven.dir/isEven.cpp.o: CMakeFiles/isEven.dir/flags.make
 CMakeFiles/isEven.dir/isEven.cpp.o: ../isEven.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/michal/Pulpit/ppp/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/michal/Pulpit/nowy/CMake_test01/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/isEven.dir/isEven.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/isEven.dir/isEven.cpp.o -c /home/michal/Pulpit/ppp/isEven.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/isEven.dir/isEven.cpp.o -c /home/michal/Pulpit/nowy/CMake_test01/isEven.cpp
 
 CMakeFiles/isEven.dir/isEven.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/isEven.dir/isEven.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/michal/Pulpit/ppp/isEven.cpp > CMakeFiles/isEven.dir/isEven.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/michal/Pulpit/nowy/CMake_test01/isEven.cpp > CMakeFiles/isEven.dir/isEven.cpp.i
 
 CMakeFiles/isEven.dir/isEven.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/isEven.dir/isEven.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/michal/Pulpit/ppp/isEven.cpp -o CMakeFiles/isEven.dir/isEven.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/michal/Pulpit/nowy/CMake_test01/isEven.cpp -o CMakeFiles/isEven.dir/isEven.cpp.s
 
 CMakeFiles/isEven.dir/isEven.cpp.o.requires:
 .PHONY : CMakeFiles/isEven.dir/isEven.cpp.o.requires
@@ -101,6 +101,6 @@ CMakeFiles/isEven.dir/clean:
 .PHONY : CMakeFiles/isEven.dir/clean
 
 CMakeFiles/isEven.dir/depend:
-	cd /home/michal/Pulpit/ppp/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/michal/Pulpit/ppp /home/michal/Pulpit/ppp /home/michal/Pulpit/ppp/build /home/michal/Pulpit/ppp/build /home/michal/Pulpit/ppp/build/CMakeFiles/isEven.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/michal/Pulpit/nowy/CMake_test01/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/michal/Pulpit/nowy/CMake_test01 /home/michal/Pulpit/nowy/CMake_test01 /home/michal/Pulpit/nowy/CMake_test01/build /home/michal/Pulpit/nowy/CMake_test01/build /home/michal/Pulpit/nowy/CMake_test01/build/CMakeFiles/isEven.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/isEven.dir/depend
 

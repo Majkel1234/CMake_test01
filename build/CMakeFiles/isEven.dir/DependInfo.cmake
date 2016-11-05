@@ -4,7 +4,7 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/home/michal/Pulpit/ppp/isEven.cpp" "/home/michal/Pulpit/ppp/build/CMakeFiles/isEven.dir/isEven.cpp.o"
+  "/home/michal/Pulpit/nowy/CMake_test01/isEven.cpp" "/home/michal/Pulpit/nowy/CMake_test01/build/CMakeFiles/isEven.dir/isEven.cpp.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/michal/Pulpit/ppp/isEven.cpp
+/home/michal/Pulpit/nowy/CMake_test01/isEven.cpp
 iostream
 -
 

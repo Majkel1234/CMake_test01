@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/michal/Pulpit/ppp/isHigherThan100.cpp
+/home/michal/Pulpit/nowy/CMake_test01/isHigherThan100.cpp
 iostream
 -
 

@@ -5,7 +5,7 @@ extern void isHigherThan100(const int&);
 
 int main(int argc,char** argv){
 	int tmp;
-	std::cout<<"(tmp's value = "<<tmp<<")\n\n"<<std::endl;		//warning!
+	std::cout<<"(tmp's value = "<<tmp<<")"<<std::endl;		//warning!
 	std::cout<<"Give the number: "<<std::endl;
 	int number;
 	std::cin>>number;
