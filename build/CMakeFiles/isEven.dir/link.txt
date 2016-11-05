@@ -1,0 +1,2 @@
+/usr/bin/ar cr libisEven.a  CMakeFiles/isEven.dir/isEven.cpp.o
+/usr/bin/ranlib libisEven.a

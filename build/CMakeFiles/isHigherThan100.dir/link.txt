@@ -1,0 +1,2 @@
+/usr/bin/ar cr libisHigherThan100.a  CMakeFiles/isHigherThan100.dir/isHigherThan100.cpp.o
+/usr/bin/ranlib libisHigherThan100.a

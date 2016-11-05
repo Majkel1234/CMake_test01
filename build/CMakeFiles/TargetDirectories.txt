@@ -1,0 +1,3 @@
+/home/michal/Pulpit/ppp/build/CMakeFiles/isEven.dir
+/home/michal/Pulpit/ppp/build/CMakeFiles/isHigherThan100.dir
+/home/michal/Pulpit/ppp/build/CMakeFiles/myProgram.dir

@@ -1,0 +1,1 @@
+/usr/bin/c++   -Wall    CMakeFiles/myProgram.dir/main.cpp.o  -o myProgram -rdynamic libisEven.a libisHigherThan100.a 
